@@ -1,0 +1,19 @@
+platform:ios,'8.0'
+
+target '百思不得姐-Swift' do 
+
+pod 'AFNetworking'
+
+pod 'SDWebImage'
+
+pod 'MJExtension'
+
+pod 'MJRefresh'
+
+pod 'DACircularProgress'
+
+pod 'pop'
+
+pod 'SVProgressHUD'
+
+end

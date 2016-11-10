@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecommendViewController" customModule="百思不得姐_Swift" customModuleProvider="target">
+            <connections>
+                <outlet property="categoryListView" destination="9cc-Ko-olW" id="uEk-ft-QSb"/>
+                <outlet property="categoryView" destination="4f4-kk-Ru3" id="YGJ-Q0-YqM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4f4-kk-Ru3" userLabel="类别View">
+                    <rect key="frame" x="0.0" y="0.0" width="68" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="68" id="aQN-ng-cbs"/>
+                    </constraints>
+                </tableView>
+                <tableView clipsSubviews="YES" tag="2" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9cc-Ko-olW" userLabel="类别列表View">
+                    <rect key="frame" x="68" y="0.0" width="307" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9cc-Ko-olW" secondAttribute="bottom" id="4Tm-ib-cOA"/>
+                <constraint firstItem="4f4-kk-Ru3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4y0-yJ-zfI"/>
+                <constraint firstItem="9cc-Ko-olW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KFk-iu-pqj"/>
+                <constraint firstItem="4f4-kk-Ru3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="N57-fC-Tvd"/>
+                <constraint firstItem="9cc-Ko-olW" firstAttribute="leading" secondItem="4f4-kk-Ru3" secondAttribute="trailing" id="S9n-4P-ZtU"/>
+                <constraint firstAttribute="trailing" secondItem="9cc-Ko-olW" secondAttribute="trailing" id="xom-OP-HAb"/>
+                <constraint firstAttribute="bottom" secondItem="4f4-kk-Ru3" secondAttribute="bottom" id="yHS-vz-Wmr"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>
