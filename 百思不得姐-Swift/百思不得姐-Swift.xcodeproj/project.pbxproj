@@ -67,6 +67,8 @@
 		B3ED3EB81DD45BC8007CEC04 /* SquareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ED3EB71DD45BC8007CEC04 /* SquareModel.swift */; };
 		B3ED3EBA1DD45C89007CEC04 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ED3EB91DD45C89007CEC04 /* SquareButton.swift */; };
 		B3ED3EBD1DD4602C007CEC04 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ED3EBB1DD4602C007CEC04 /* WebController.swift */; };
+		B3ED3EC91DD5A1AA007CEC04 /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ED3EC71DD5A1AA007CEC04 /* BigImageViewController.swift */; };
+		B3ED3ECA1DD5A1AA007CEC04 /* BigImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ED3EC81DD5A1AA007CEC04 /* BigImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +160,8 @@
 		B3ED3EB71DD45BC8007CEC04 /* SquareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareModel.swift; sourceTree = "<group>"; };
 		B3ED3EB91DD45C89007CEC04 /* SquareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 		B3ED3EBB1DD4602C007CEC04 /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		B3ED3EC71DD5A1AA007CEC04 /* BigImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigImageViewController.swift; sourceTree = "<group>"; };
+		B3ED3EC81DD5A1AA007CEC04 /* BigImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +308,8 @@
 				8249EBC01DC355E400EE849B /* EssenseController.swift */,
 				82AC91761DC6E37E00E18004 /* TopViewController.swift */,
 				B340729C1DD31E7900CB876D /* RecommendTagsController.swift */,
+				B3ED3EC71DD5A1AA007CEC04 /* BigImageViewController.swift */,
+				B3ED3EC81DD5A1AA007CEC04 /* BigImageViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -558,7 +564,6 @@
 				TargetAttributes = {
 					8249EB6F1DC34D9A00EE849B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9E42T62Q2E;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -602,6 +607,7 @@
 				B3ED3E9C1DD40C1E007CEC04 /* LoginViewController.xib in Resources */,
 				8249EB7B1DC34D9A00EE849B /* Assets.xcassets in Resources */,
 				B34CC5F41DC9807600AF381C /* TopicCommentCell.xib in Resources */,
+				B3ED3ECA1DD5A1AA007CEC04 /* BigImageViewController.xib in Resources */,
 				B3ED3EB01DD42AF9007CEC04 /* CategoryListCell.xib in Resources */,
 				B3ED3EA01DD4272D007CEC04 /* RecommendViewController.xib in Resources */,
 				B34072A71DD3319C00CB876D /* PublishView.xib in Resources */,
@@ -691,6 +697,7 @@
 				8249EBC91DC3576C00EE849B /* TabBar.swift in Sources */,
 				8249EBC11DC355E400EE849B /* EssenseController.swift in Sources */,
 				8249EBBD1DC3558400EE849B /* TabBarController.swift in Sources */,
+				B3ED3EC91DD5A1AA007CEC04 /* BigImageViewController.swift in Sources */,
 				B340729F1DD31EC200CB876D /* RecommendTagsViewModel.swift in Sources */,
 				8249EBC51DC3561900EE849B /* NewViewController.swift in Sources */,
 				821EF91A1DC35CFE00F5B3D6 /* UIView+Tool.m in Sources */,
@@ -863,7 +870,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9E42T62Q2E;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/liweimac/Desktop/Swift初试/百思不得姐-Swift/百思不得姐-Swift/Others/Swift-Prefix.pch";
 				INFOPLIST_FILE = "百思不得姐-Swift/Info.plist";
@@ -884,7 +891,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9E42T62Q2E;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/liweimac/Desktop/Swift初试/百思不得姐-Swift/百思不得姐-Swift/Others/Swift-Prefix.pch";
 				INFOPLIST_FILE = "百思不得姐-Swift/Info.plist";

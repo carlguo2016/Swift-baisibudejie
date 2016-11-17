@@ -26,7 +26,13 @@ class TopicPicture: UIView {
     }
     
   
+    @IBAction func seeBigButtonClick(_ sender: UIButton) {
+        showBigImage()
+    }
     func showBigImage()  {
+        let bigImageVc = BigImageViewController()
+        bigImageVc.topicModel = topicModel
+        UIApplication.shared.keyWindow?.rootViewController?.present(bigImageVc, animated: true, completion: nil)
         
     }
     
